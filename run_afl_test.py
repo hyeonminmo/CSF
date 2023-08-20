@@ -1,11 +1,14 @@
 import os
+import logging
 
 # run afl++
 #  - fuzz function input type is string.
 
-def fuzz(pgm, input_corpus_path, output_path, time, build_option, run_option, pgm_option):
-    fuzzing_command = "afl-fuzz " + run_option + " -i " + input_corpus_path + " -o " + output_path + " -V "+ str(time) +  " -- " + build_option.path+pgm +" "+ pgm_option +" @@"
+def fuzz(pgm, input_corpus_path, output_path, time, run_option, pgm_option):
+    fuzzing_command = "afl-fuzz " + run_option + " -i " + input_corpus_path + " -o " + output_path + " -V "+ str(time) +  " -- " + pgm +" "+ pgm_option +" @@"
     os.system(fuzzing_command)
+
+    logging.debug('run afl fuzzing')
 
     resultInfo ={}
     resultInfo = fuzzerResultInfo(output_path)
@@ -14,8 +17,11 @@ def fuzz(pgm, input_corpus_path, output_path, time, build_option, run_option, pg
     edge_total = int(resultInfo["edges_total"])
     crash_new_path = resultInfo["path"]+"crashes"
     input_corpus_new_path = resultInfo["path"]+"queue"
-    
+
     edgeFound_new = float(edge_new)/edge_total * 100
+
+    logging.debug('calculate edgeFound_new percent :' + str(edgeFound_new))
+
 
     return edgeFound_new, crash_new_path, input_corpus_new_path
 
@@ -33,5 +39,7 @@ def fuzzerResultInfo(output_corpus_path):
 
         elif "total_edges" in line:
             result_info["edges_total"] = int(line.split(":")[1])
+
+    logging.debug('To obtain the fuzzing result information')
 
     return result_info

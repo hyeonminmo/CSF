@@ -1,6 +1,7 @@
 import os
 import glob
 import shutil
+import logging
 
 # input: pgm, inputCorpus_new, inputCorpus_global, crash_new, crash_global, pgm_option, input_unique
 # no return. Because this function is only update crash and input file and delete duplication seed input
@@ -8,32 +9,18 @@ import shutil
 
 
 
-def updateResult(crashTotal,crashNew, inputTotal, inputNew,pgm, pgm_option):
+def updateResult(crashTotal,crashNew, inputTotal, inputNew):
 
     # copy new input corpus and crash to total input and crash
-    crashCommand = "cp "+crashNew+"/* " + crashTotal
+#    shutil.copy2(crashNew+"/*",crashTotal)
+#    shutil.copy2(inputNew+"/*",inputTotal)
+    crashCommand = "cp -b "+crashNew+"/* " + crashTotal
     os.system(crashCommand)
-    inputCommand = "cp "+ inputNew+"/* " + inputTotal
+    logging.debug('copy new crash file to total crash folder')
+    inputCommand = "cp -b "+ inputNew+"/* " + inputTotal
     os.system(inputCommand)
-
-    # delete duplication seed input
-    os.system("afl-cmin -i "+inputTotal+" -o ./inputsUnique -- " + pgm +" "+ pgm_option + "@@")
-
-    os.system("rm -rf "+ inputTotal+"/id*")
-    os.system("cp ./inputsUnique/* " + inputTotal)
-   
-
+    logging.debug('copy new input file to total input folder')
 
     # delete prior result
-    try:  
-        shutil.rmtree("./out")
-    except OSError as e:
-        print("Error: remove ./out: %s" % (e.strerror))
-    try:
-        shutil.rmtree("./inputsUnique")
-    except OSError as e:
-        print("Error: remove ./inputsUnique: %s" % (e.strerror))
-
-
-
-
+    shutil.rmtree("./out")
+    logging.debug('remove out folder')
