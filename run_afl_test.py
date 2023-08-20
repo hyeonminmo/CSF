@@ -18,7 +18,11 @@ def fuzz(pgm, input_corpus_path, output_path, time, run_option, pgm_option):
     crash_new_path = resultInfo["path"]+"crashes"
     input_corpus_new_path = resultInfo["path"]+"queue"
 
-    edgeFound_new = float(edge_new)/edge_total * 100
+
+    if edge_total != 0:
+        edgeFound_new = float(edge_new)/edge_total * 100
+    else:
+        edgeFound_new = 0
 
     logging.debug('calculate edgeFound_new percent :' + str(edgeFound_new))
 
@@ -30,15 +34,16 @@ def fuzzerResultInfo(output_corpus_path):
     result_info ={}
     # now location
     result_info["path"] = output_corpus_path+"/default/"    
-
-    statsFile = open(result_info["path"]+"fuzzer_stats",'r')
-
-    for line in statsFile:
-        if "edges_found" in line:
-            result_info["edge_new"]  = int(line.split(":")[1])
-
-        elif "total_edges" in line:
-            result_info["edges_total"] = int(line.split(":")[1])
+    if os.path.exists(result_info["path"]+"fuzzer_stats"):
+        statsFile = open(result_info["path"]+"fuzzer_stats",'r')
+        for line in statsFile:
+            if "edges_found" in line:
+                result_info["edge_new"]  = int(line.split(":")[1])
+            elif "total_edges" in line:
+                result_info["edges_total"] = int(line.split(":")[1])
+    else:
+        result_info["edge_new"] = 0
+        result_info["edges_total"] = 0
 
     logging.debug('To obtain the fuzzing result information')
 

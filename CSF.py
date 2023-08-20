@@ -47,7 +47,7 @@ edgeFound_prior = 0.0
 threshold_new = threshold_init
 
 # need to be changed later
-time_cur = 10
+time_cur = 300
 if timeTotal < time_cur:
     time_cur = timeTotal
 
