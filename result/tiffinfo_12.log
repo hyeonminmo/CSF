@@ -1,0 +1,2036 @@
+build_target.py -  setTarget  - download target and set build option
+build_target.py -  prepare_fuzz_environment  - prepare fuzz environment
+build_target.py -  build_target  - build nothing option
+build_target.py -  build_target  - build asan option
+build_target.py -  build_target  - unset asan option
+CSF.py -  buildTarget  - complete build target
+CSF.py -  <module>  - set total time : 43200
+CSF.py -  <module>  - set threshold_init : 1.0
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 1, Fail: 1, Prob: [0.23144127]
+thompson.py -  selectOption  - Success: 1, Fail: 1, Prob: [0.28729835]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :8.99313251699
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 1, Fail : 1, Threshold : 1.0
+thompson.py -  updateOptionPosterior  - Update option function - Success
+CSF.py -  <module>  - Update after  Success : 2, Fail : 1, Threshold : 2.0
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 1, Fail: 1, Prob: [0.23068118]
+thompson.py -  selectOption  - Success: 2, Fail: 1, Prob: [0.85230361]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :9.48366701791
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 1, Threshold : 2.0
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 2, Threshold : 1.0
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 1, Fail: 1, Prob: [0.52639531]
+thompson.py -  selectOption  - Success: 2, Fail: 2, Prob: [0.33138448]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :20.1110425663
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 1, Fail : 1, Threshold : 1.0
+thompson.py -  updateOptionPosterior  - Update option function - Success
+CSF.py -  <module>  - Update after  Success : 2, Fail : 1, Threshold : 2.0
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 2, Fail: 1, Prob: [0.65137966]
+thompson.py -  selectOption  - Success: 2, Fail: 2, Prob: [0.17091807]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :20.9006785935
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 2, Fail : 1, Threshold : 2.0
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 2, Threshold : 1.0
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 2, Fail: 2, Prob: [0.45252081]
+thompson.py -  selectOption  - Success: 2, Fail: 2, Prob: [0.24802745]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.4929056138
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 2, Fail : 2, Threshold : 1.0
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 3, Threshold : 0.5
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 2, Fail: 3, Prob: [0.37006448]
+thompson.py -  selectOption  - Success: 2, Fail: 2, Prob: [0.5645264]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2205225101
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 2, Threshold : 0.5
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 3, Threshold : 0.25
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 2, Fail: 3, Prob: [0.1938544]
+thompson.py -  selectOption  - Success: 2, Fail: 3, Prob: [0.55398725]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2386904546
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 3, Threshold : 0.25
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 4, Threshold : 0.125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 2, Fail: 3, Prob: [0.32756019]
+thompson.py -  selectOption  - Success: 2, Fail: 4, Prob: [0.74094937]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.4930416773
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 4, Threshold : 0.125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 5, Threshold : 0.0625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 2, Fail: 3, Prob: [0.50788197]
+thompson.py -  selectOption  - Success: 2, Fail: 5, Prob: [0.16457413]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8753855645
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 2, Fail : 3, Threshold : 0.0625
+thompson.py -  updateOptionPosterior  - Update option function - Success
+CSF.py -  <module>  - Update after  Success : 3, Fail : 3, Threshold : 1.0625
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 3, Prob: [0.57472273]
+thompson.py -  selectOption  - Success: 2, Fail: 5, Prob: [0.569483]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6903146206
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 3, Threshold : 1.0625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 4, Threshold : 0.53125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 4, Prob: [0.197875]
+thompson.py -  selectOption  - Success: 2, Fail: 5, Prob: [0.45528318]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2968278769
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 5, Threshold : 0.53125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 6, Threshold : 0.265625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 4, Prob: [0.30300879]
+thompson.py -  selectOption  - Success: 2, Fail: 6, Prob: [0.52085964]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :0
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 6, Threshold : 0.265625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 7, Threshold : 0.1328125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 4, Prob: [0.16941425]
+thompson.py -  selectOption  - Success: 2, Fail: 7, Prob: [0.23644771]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2423240435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 7, Threshold : 0.1328125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 8, Threshold : 0.06640625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 4, Prob: [0.7329856]
+thompson.py -  selectOption  - Success: 2, Fail: 8, Prob: [0.09305079]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8383713757
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 4, Threshold : 0.06640625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 5, Threshold : 0.033203125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 5, Prob: [0.48960364]
+thompson.py -  selectOption  - Success: 2, Fail: 8, Prob: [0.00073145]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6409623689
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 5, Threshold : 0.033203125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 6, Threshold : 0.0166015625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 6, Prob: [0.03830654]
+thompson.py -  selectOption  - Success: 2, Fail: 8, Prob: [0.039131]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2786599324
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 8, Threshold : 0.0166015625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 9, Threshold : 0.00830078125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 6, Prob: [0.14276593]
+thompson.py -  selectOption  - Success: 2, Fail: 9, Prob: [0.22192926]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2750263435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 9, Threshold : 0.00830078125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 10, Threshold : 0.004150390625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 6, Prob: [0.21858647]
+thompson.py -  selectOption  - Success: 2, Fail: 10, Prob: [0.12538197]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7273288094
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 6, Threshold : 0.004150390625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 7, Threshold : 0.0020751953125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 7, Prob: [0.49883146]
+thompson.py -  selectOption  - Success: 2, Fail: 10, Prob: [0.10365773]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7273288094
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 7, Threshold : 0.0020751953125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 8, Threshold : 0.00103759765625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 8, Prob: [0.23632793]
+thompson.py -  selectOption  - Success: 2, Fail: 10, Prob: [0.12149933]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 8, Threshold : 0.00103759765625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 9, Threshold : 0.000518798828125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 9, Prob: [0.35343728]
+thompson.py -  selectOption  - Success: 2, Fail: 10, Prob: [0.18538412]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7643429981
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 9, Threshold : 0.000518798828125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 10, Threshold : 0.000259399414062
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 10, Prob: [0.17473647]
+thompson.py -  selectOption  - Success: 2, Fail: 10, Prob: [0.08067378]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7520049352
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 10, Threshold : 0.000259399414062
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 11, Threshold : 0.000129699707031
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 11, Prob: [0.12446693]
+thompson.py -  selectOption  - Success: 2, Fail: 10, Prob: [0.0886526]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8507094386
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 11, Threshold : 0.000129699707031
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 12, Threshold : 6.48498535156e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 12, Prob: [0.15119826]
+thompson.py -  selectOption  - Success: 2, Fail: 10, Prob: [0.4474061]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.256858399
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 10, Threshold : 6.48498535156e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 11, Threshold : 3.24249267578e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 12, Prob: [0.24645483]
+thompson.py -  selectOption  - Success: 2, Fail: 11, Prob: [0.14512767]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7273288094
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 12, Threshold : 3.24249267578e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 13, Threshold : 1.62124633789e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 13, Prob: [0.26422023]
+thompson.py -  selectOption  - Success: 2, Fail: 11, Prob: [0.09570121]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.789019124
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 13, Threshold : 1.62124633789e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 14, Threshold : 8.10623168945e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 14, Prob: [0.4410988]
+thompson.py -  selectOption  - Success: 2, Fail: 11, Prob: [0.06623726]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6533004318
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 14, Threshold : 8.10623168945e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 15, Threshold : 4.05311584473e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 15, Prob: [0.13793979]
+thompson.py -  selectOption  - Success: 2, Fail: 11, Prob: [0.14306958]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.3186294103
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 11, Threshold : 4.05311584473e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 12, Threshold : 2.02655792236e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 15, Prob: [0.14951093]
+thompson.py -  selectOption  - Success: 2, Fail: 12, Prob: [0.20180342]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.256858399
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 12, Threshold : 2.02655792236e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 13, Threshold : 1.01327896118e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 15, Prob: [0.15377615]
+thompson.py -  selectOption  - Success: 2, Fail: 13, Prob: [0.04763004]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7273288094
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 15, Threshold : 1.01327896118e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 3, Fail : 16, Threshold : 5.06639480591e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 3, Fail: 16, Prob: [0.23713915]
+thompson.py -  selectOption  - Success: 2, Fail: 13, Prob: [0.00691208]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 3, Fail : 16, Threshold : 5.06639480591e-07
+thompson.py -  updateOptionPosterior  - Update option function - Success
+CSF.py -  <module>  - Update after  Success : 4, Fail : 16, Threshold : 1.00000050664
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 16, Prob: [0.21746524]
+thompson.py -  selectOption  - Success: 2, Fail: 13, Prob: [0.07393028]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 16, Threshold : 1.00000050664
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 4, Fail : 17, Threshold : 0.50000025332
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 17, Prob: [0.17358121]
+thompson.py -  selectOption  - Success: 2, Fail: 13, Prob: [0.11038661]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7520049352
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 17, Threshold : 0.50000025332
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 4, Fail : 18, Threshold : 0.25000012666
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 18, Prob: [0.10101383]
+thompson.py -  selectOption  - Success: 2, Fail: 13, Prob: [0.20060182]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2532248101
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 13, Threshold : 0.25000012666
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 14, Threshold : 0.12500006333
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 18, Prob: [0.41838899]
+thompson.py -  selectOption  - Success: 2, Fail: 14, Prob: [0.18590986]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8507094386
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 18, Threshold : 0.12500006333
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 4, Fail : 19, Threshold : 0.062500031665
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 19, Prob: [0.11166327]
+thompson.py -  selectOption  - Success: 2, Fail: 14, Prob: [0.03439001]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8753855645
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 19, Threshold : 0.062500031665
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 4, Fail : 20, Threshold : 0.0312500158325
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 20, Prob: [0.06523563]
+thompson.py -  selectOption  - Success: 2, Fail: 14, Prob: [0.13767901]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2532248101
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 14, Threshold : 0.0312500158325
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 15, Threshold : 0.0156250079162
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 20, Prob: [0.16058333]
+thompson.py -  selectOption  - Success: 2, Fail: 15, Prob: [0.19834307]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2750263435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 15, Threshold : 0.0156250079162
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 16, Threshold : 0.00781250395812
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 20, Prob: [0.20785438]
+thompson.py -  selectOption  - Success: 2, Fail: 16, Prob: [0.07792716]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.789019124
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 20, Threshold : 0.00781250395812
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 4, Fail : 21, Threshold : 0.00390625197906
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 21, Prob: [0.08893159]
+thompson.py -  selectOption  - Success: 2, Fail: 16, Prob: [0.07903189]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7766810611
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 21, Threshold : 0.00390625197906
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 4, Fail : 22, Threshold : 0.00195312598953
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 22, Prob: [0.08201348]
+thompson.py -  selectOption  - Success: 2, Fail: 16, Prob: [0.11426333]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2314232768
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 16, Threshold : 0.00195312598953
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 17, Threshold : 0.000976562994765
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 22, Prob: [0.2152223]
+thompson.py -  selectOption  - Success: 2, Fail: 17, Prob: [0.07067742]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 22, Threshold : 0.000976562994765
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 4, Fail : 23, Threshold : 0.000488281497383
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 4, Fail: 23, Prob: [0.19262464]
+thompson.py -  selectOption  - Success: 2, Fail: 17, Prob: [0.03955697]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :22.1468229488
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 4, Fail : 23, Threshold : 0.000488281497383
+thompson.py -  updateOptionPosterior  - Update option function - Success
+CSF.py -  <module>  - Update after  Success : 5, Fail : 23, Threshold : 1.0004882815
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 23, Prob: [0.21054649]
+thompson.py -  selectOption  - Success: 2, Fail: 17, Prob: [0.11948999]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7520049352
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 23, Threshold : 1.0004882815
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 24, Threshold : 0.500244140749
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 24, Prob: [0.07640335]
+thompson.py -  selectOption  - Success: 2, Fail: 17, Prob: [0.0982835]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2604919879
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 17, Threshold : 0.500244140749
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 18, Threshold : 0.250122070374
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 24, Prob: [0.21866962]
+thompson.py -  selectOption  - Success: 2, Fail: 18, Prob: [0.14564111]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8753855645
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 24, Threshold : 0.250122070374
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 25, Threshold : 0.125061035187
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 25, Prob: [0.12693295]
+thompson.py -  selectOption  - Success: 2, Fail: 18, Prob: [0.04584646]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6903146206
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 25, Threshold : 0.125061035187
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 26, Threshold : 0.0625305175936
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 26, Prob: [0.19923562]
+thompson.py -  selectOption  - Success: 2, Fail: 18, Prob: [0.10398001]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7643429981
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 26, Threshold : 0.0625305175936
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 27, Threshold : 0.0312652587968
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 27, Prob: [0.27792692]
+thompson.py -  selectOption  - Success: 2, Fail: 18, Prob: [0.22017542]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 27, Threshold : 0.0312652587968
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 28, Threshold : 0.0156326293984
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 28, Prob: [0.11705355]
+thompson.py -  selectOption  - Success: 2, Fail: 18, Prob: [0.03422436]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7026526835
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 28, Threshold : 0.0156326293984
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 29, Threshold : 0.0078163146992
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 29, Prob: [0.11306237]
+thompson.py -  selectOption  - Success: 2, Fail: 18, Prob: [0.15151041]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2386904546
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 18, Threshold : 0.0078163146992
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 19, Threshold : 0.0039081573496
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 29, Prob: [0.19551915]
+thompson.py -  selectOption  - Success: 2, Fail: 19, Prob: [0.07227817]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8507094386
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 29, Threshold : 0.0039081573496
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 30, Threshold : 0.0019540786748
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 30, Prob: [0.10233072]
+thompson.py -  selectOption  - Success: 2, Fail: 19, Prob: [0.15387652]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.256858399
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 19, Threshold : 0.0019540786748
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 20, Threshold : 0.0009770393374
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 30, Prob: [0.2588768]
+thompson.py -  selectOption  - Success: 2, Fail: 20, Prob: [0.04553637]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8013571869
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 30, Threshold : 0.0009770393374
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 31, Threshold : 0.0004885196687
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 31, Prob: [0.1719226]
+thompson.py -  selectOption  - Success: 2, Fail: 20, Prob: [0.1061331]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7643429981
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 31, Threshold : 0.0004885196687
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 32, Threshold : 0.00024425983435
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 32, Prob: [0.21472162]
+thompson.py -  selectOption  - Success: 2, Fail: 20, Prob: [0.21586171]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2495912212
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 20, Threshold : 0.00024425983435
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 21, Threshold : 0.000122129917175
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 32, Prob: [0.09379618]
+thompson.py -  selectOption  - Success: 2, Fail: 21, Prob: [0.22068339]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2532248101
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 21, Threshold : 0.000122129917175
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 22, Threshold : 6.10649585875e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 32, Prob: [0.19924628]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.02472389]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.9740900679
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 32, Threshold : 6.10649585875e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 33, Threshold : 3.05324792937e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 33, Prob: [0.27141873]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.1163085]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7273288094
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 33, Threshold : 3.05324792937e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 34, Threshold : 1.52662396469e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 34, Prob: [0.14328442]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.06829772]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8753855645
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 34, Threshold : 1.52662396469e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 35, Threshold : 7.63311982344e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 35, Prob: [0.1121548]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.06973867]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7643429981
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 35, Threshold : 7.63311982344e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 36, Threshold : 3.81655991172e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 36, Prob: [0.14343465]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.07358742]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6533004318
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 36, Threshold : 3.81655991172e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 37, Threshold : 1.90827995586e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 37, Prob: [0.08684417]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.06793485]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8630475015
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 37, Threshold : 1.90827995586e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 38, Threshold : 9.54139977929e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 38, Prob: [0.16254635]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.00576066]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8260333128
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 38, Threshold : 9.54139977929e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 39, Threshold : 4.77069988965e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 39, Prob: [0.04567483]
+thompson.py -  selectOption  - Success: 2, Fail: 22, Prob: [0.10036845]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2750263435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 22, Threshold : 4.77069988965e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 23, Threshold : 2.38534994482e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 39, Prob: [0.11251888]
+thompson.py -  selectOption  - Success: 2, Fail: 23, Prob: [0.19482831]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2677591657
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 23, Threshold : 2.38534994482e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 24, Threshold : 1.19267497241e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 39, Prob: [0.11601759]
+thompson.py -  selectOption  - Success: 2, Fail: 24, Prob: [0.0190297]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6903146206
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 39, Threshold : 1.19267497241e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 40, Threshold : 5.96337486206e-08
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 40, Prob: [0.27124493]
+thompson.py -  selectOption  - Success: 2, Fail: 24, Prob: [0.0833382]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :22.0481184454
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 40, Threshold : 5.96337486206e-08
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 41, Threshold : 2.98168743103e-08
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 41, Prob: [0.09044901]
+thompson.py -  selectOption  - Success: 2, Fail: 24, Prob: [0.15029541]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.467606555
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 24, Threshold : 2.98168743103e-08
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 25, Threshold : 1.49084371551e-08
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 41, Prob: [0.05848147]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.05407847]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 41, Threshold : 1.49084371551e-08
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 42, Threshold : 7.45421857757e-09
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 42, Prob: [0.09904802]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.01523492]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.789019124
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 42, Threshold : 7.45421857757e-09
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 43, Threshold : 3.72710928879e-09
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 43, Prob: [0.14360844]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.05879665]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6779765577
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 43, Threshold : 3.72710928879e-09
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 44, Threshold : 1.86355464439e-09
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 44, Prob: [0.13219818]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.04974867]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8136952498
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 44, Threshold : 1.86355464439e-09
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 45, Threshold : 9.31777322197e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 45, Prob: [0.09728638]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.05434419]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 45, Threshold : 9.31777322197e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 46, Threshold : 4.65888661098e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 46, Prob: [0.14463975]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.14122471]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7273288094
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 46, Threshold : 4.65888661098e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 47, Threshold : 2.32944330549e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 47, Prob: [0.0763309]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.04246114]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6779765577
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 47, Threshold : 2.32944330549e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 48, Threshold : 1.16472165275e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 48, Prob: [0.06592408]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.02272637]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6779765577
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 48, Threshold : 1.16472165275e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 49, Threshold : 5.82360826373e-11
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 49, Prob: [0.06427972]
+thompson.py -  selectOption  - Success: 2, Fail: 25, Prob: [0.10597495]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2423240435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 25, Threshold : 5.82360826373e-11
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 26, Threshold : 2.91180413186e-11
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 49, Prob: [0.09969759]
+thompson.py -  selectOption  - Success: 2, Fail: 26, Prob: [0.04751883]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.789019124
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 49, Threshold : 2.91180413186e-11
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 50, Threshold : 1.45590206593e-11
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 50, Prob: [0.07259741]
+thompson.py -  selectOption  - Success: 2, Fail: 26, Prob: [0.01742754]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.9123997532
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 50, Threshold : 1.45590206593e-11
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 51, Threshold : 7.27951032966e-12
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 51, Prob: [0.16469624]
+thompson.py -  selectOption  - Success: 2, Fail: 26, Prob: [0.0594783]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 51, Threshold : 7.27951032966e-12
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 52, Threshold : 3.63975516483e-12
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 52, Prob: [0.1217718]
+thompson.py -  selectOption  - Success: 2, Fail: 26, Prob: [0.04559235]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6533004318
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 52, Threshold : 3.63975516483e-12
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 53, Threshold : 1.81987758242e-12
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 53, Prob: [0.09307604]
+thompson.py -  selectOption  - Success: 2, Fail: 26, Prob: [0.05365783]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.5916101172
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 53, Threshold : 1.81987758242e-12
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 54, Threshold : 9.09938791208e-13
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 54, Prob: [0.05570826]
+thompson.py -  selectOption  - Success: 2, Fail: 26, Prob: [0.07282363]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2386904546
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 26, Threshold : 9.09938791208e-13
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 27, Threshold : 4.54969395604e-13
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 54, Prob: [0.06660148]
+thompson.py -  selectOption  - Success: 2, Fail: 27, Prob: [0.07370505]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2459576324
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 27, Threshold : 4.54969395604e-13
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 28, Threshold : 2.27484697802e-13
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 54, Prob: [0.09946562]
+thompson.py -  selectOption  - Success: 2, Fail: 28, Prob: [0.02390985]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8260333128
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 54, Threshold : 2.27484697802e-13
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 55, Threshold : 1.13742348901e-13
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 55, Prob: [0.09765833]
+thompson.py -  selectOption  - Success: 2, Fail: 28, Prob: [0.0698107]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8260333128
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 55, Threshold : 1.13742348901e-13
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 5, Fail : 56, Threshold : 5.68711744505e-14
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 56, Prob: [0.05811314]
+thompson.py -  selectOption  - Success: 2, Fail: 28, Prob: [0.06816762]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2459576324
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 28, Threshold : 5.68711744505e-14
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 29, Threshold : 2.84355872252e-14
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 5, Fail: 56, Prob: [0.12056031]
+thompson.py -  selectOption  - Success: 2, Fail: 29, Prob: [0.06806705]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :22.1714990746
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 5, Fail : 56, Threshold : 2.84355872252e-14
+thompson.py -  updateOptionPosterior  - Update option function - Success
+CSF.py -  <module>  - Update after  Success : 6, Fail : 56, Threshold : 1.0
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 56, Prob: [0.06900819]
+thompson.py -  selectOption  - Success: 2, Fail: 29, Prob: [0.13735399]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2641255768
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 29, Threshold : 1.0
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 30, Threshold : 0.5
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 56, Prob: [0.07459849]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.03037515]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 56, Threshold : 0.5
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 57, Threshold : 0.25
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 57, Prob: [0.10948167]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.04191202]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8383713757
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 57, Threshold : 0.25
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 58, Threshold : 0.125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 58, Prob: [0.09946441]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.03014801]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7520049352
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 58, Threshold : 0.125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 59, Threshold : 0.0625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 59, Prob: [0.116318]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.01747018]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8753855645
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 59, Threshold : 0.0625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 60, Threshold : 0.03125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 60, Prob: [0.13581501]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.06019769]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7766810611
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 60, Threshold : 0.03125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 61, Threshold : 0.015625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 61, Prob: [0.04672647]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.02618467]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8136952498
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 61, Threshold : 0.015625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 62, Threshold : 0.0078125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 62, Prob: [0.1562056]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.03234472]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8507094386
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 62, Threshold : 0.0078125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 63, Threshold : 0.00390625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 63, Prob: [0.05359849]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.05069579]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8753855645
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 63, Threshold : 0.00390625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 64, Threshold : 0.001953125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 64, Prob: [0.11003619]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.05130672]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7520049352
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 64, Threshold : 0.001953125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 65, Threshold : 0.0009765625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 65, Prob: [0.10614601]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.04451105]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8136952498
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 65, Threshold : 0.0009765625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 66, Threshold : 0.00048828125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 66, Prob: [0.04240343]
+thompson.py -  selectOption  - Success: 2, Fail: 30, Prob: [0.05235139]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2713927546
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 30, Threshold : 0.00048828125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 31, Threshold : 0.000244140625
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 66, Prob: [0.13500556]
+thompson.py -  selectOption  - Success: 2, Fail: 31, Prob: [0.09402157]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 66, Threshold : 0.000244140625
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 67, Threshold : 0.0001220703125
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 67, Prob: [0.06484677]
+thompson.py -  selectOption  - Success: 2, Fail: 31, Prob: [0.07569598]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2786599324
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 31, Threshold : 0.0001220703125
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 32, Threshold : 6.103515625e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 67, Prob: [0.04224448]
+thompson.py -  selectOption  - Success: 2, Fail: 32, Prob: [0.05331224]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.256858399
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 32, Threshold : 6.103515625e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 33, Threshold : 3.0517578125e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 67, Prob: [0.14773391]
+thompson.py -  selectOption  - Success: 2, Fail: 33, Prob: [0.04733193]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 67, Threshold : 3.0517578125e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 68, Threshold : 1.52587890625e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 68, Prob: [0.08227993]
+thompson.py -  selectOption  - Success: 2, Fail: 33, Prob: [0.04572446]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7766810611
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 68, Threshold : 1.52587890625e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 6, Fail : 69, Threshold : 7.62939453125e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 69, Prob: [0.07996076]
+thompson.py -  selectOption  - Success: 2, Fail: 33, Prob: [0.08907387]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2641255768
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 33, Threshold : 7.62939453125e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 34, Threshold : 3.81469726563e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 6, Fail: 69, Prob: [0.10823232]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.02900398]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :22.2208513263
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 6, Fail : 69, Threshold : 3.81469726563e-06
+thompson.py -  updateOptionPosterior  - Update option function - Success
+CSF.py -  <module>  - Update after  Success : 7, Fail : 69, Threshold : 1.0000038147
+CSF.py -  <module>  - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 69, Prob: [0.07206044]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.0457333]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8383713757
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 69, Threshold : 1.0000038147
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 70, Threshold : 0.500001907349
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 70, Prob: [0.09798393]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.09079894]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8630475015
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 70, Threshold : 0.500001907349
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 71, Threshold : 0.250000953674
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 71, Prob: [0.04892492]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.02896927]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.6533004318
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 71, Threshold : 0.250000953674
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 72, Threshold : 0.125000476837
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 72, Prob: [0.08772985]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.02312289]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.9370758791
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 72, Threshold : 0.125000476837
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 73, Threshold : 0.0625002384186
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 73, Prob: [0.09585055]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.03205923]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 73, Threshold : 0.0625002384186
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 74, Threshold : 0.0312501192093
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 74, Prob: [0.09038492]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.05710125]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8136952498
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 74, Threshold : 0.0312501192093
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 75, Threshold : 0.0156250596046
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 75, Prob: [0.11978385]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.05705922]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.789019124
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 75, Threshold : 0.0156250596046
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 76, Threshold : 0.00781252980232
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 76, Prob: [0.11074371]
+thompson.py -  selectOption  - Success: 2, Fail: 34, Prob: [0.2142428]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2314232768
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 34, Threshold : 0.00781252980232
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 35, Threshold : 0.00390626490116
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 76, Prob: [0.05429277]
+thompson.py -  selectOption  - Success: 2, Fail: 35, Prob: [0.01061801]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.789019124
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 76, Threshold : 0.00390626490116
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 77, Threshold : 0.00195313245058
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 77, Prob: [0.09868881]
+thompson.py -  selectOption  - Success: 2, Fail: 35, Prob: [0.0229131]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7149907465
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 77, Threshold : 0.00195313245058
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 78, Threshold : 0.00097656622529
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 78, Prob: [0.06115604]
+thompson.py -  selectOption  - Success: 2, Fail: 35, Prob: [0.09089531]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2750263435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 35, Threshold : 0.00097656622529
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 36, Threshold : 0.000488283112645
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 78, Prob: [0.08016443]
+thompson.py -  selectOption  - Success: 2, Fail: 36, Prob: [0.036216]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7643429981
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 78, Threshold : 0.000488283112645
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 79, Threshold : 0.000244141556323
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 79, Prob: [0.04003078]
+thompson.py -  selectOption  - Success: 2, Fail: 36, Prob: [0.05792971]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.256858399
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 36, Threshold : 0.000244141556323
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 37, Threshold : 0.000122070778161
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 79, Prob: [0.0690406]
+thompson.py -  selectOption  - Success: 2, Fail: 37, Prob: [0.03006341]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8630475015
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 79, Threshold : 0.000122070778161
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 80, Threshold : 6.10353890806e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 80, Prob: [0.08574399]
+thompson.py -  selectOption  - Success: 2, Fail: 37, Prob: [0.03429308]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7149907465
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 80, Threshold : 6.10353890806e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 81, Threshold : 3.05176945403e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 81, Prob: [0.08557543]
+thompson.py -  selectOption  - Success: 2, Fail: 37, Prob: [0.07247836]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 81, Threshold : 3.05176945403e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 82, Threshold : 1.52588472702e-05
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 82, Prob: [0.07978414]
+thompson.py -  selectOption  - Success: 2, Fail: 37, Prob: [0.09560593]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2750263435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 37, Threshold : 1.52588472702e-05
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 38, Threshold : 7.62942363508e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 82, Prob: [0.06972454]
+thompson.py -  selectOption  - Success: 2, Fail: 38, Prob: [0.0329866]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7520049352
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 82, Threshold : 7.62942363508e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 83, Threshold : 3.81471181754e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 83, Prob: [0.05275221]
+thompson.py -  selectOption  - Success: 2, Fail: 38, Prob: [0.01566449]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 83, Threshold : 3.81471181754e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 84, Threshold : 1.90735590877e-06
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 84, Prob: [0.05959776]
+thompson.py -  selectOption  - Success: 2, Fail: 38, Prob: [0.03866428]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.628624306
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 84, Threshold : 1.90735590877e-06
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 85, Threshold : 9.53677954385e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 85, Prob: [0.13184812]
+thompson.py -  selectOption  - Success: 2, Fail: 38, Prob: [0.16872593]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2750263435
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 38, Threshold : 9.53677954385e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 39, Threshold : 4.76838977193e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 85, Prob: [0.0593775]
+thompson.py -  selectOption  - Success: 2, Fail: 39, Prob: [0.03771394]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 85, Threshold : 4.76838977193e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 86, Threshold : 2.38419488596e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 86, Prob: [0.06281231]
+thompson.py -  selectOption  - Success: 2, Fail: 39, Prob: [0.0467728]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :22.0357803825
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 86, Threshold : 2.38419488596e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 87, Threshold : 1.19209744298e-07
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 87, Prob: [0.11542546]
+thompson.py -  selectOption  - Success: 2, Fail: 39, Prob: [0.05961831]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8383713757
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 87, Threshold : 1.19209744298e-07
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 88, Threshold : 5.96048721491e-08
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 88, Prob: [0.07453612]
+thompson.py -  selectOption  - Success: 2, Fail: 39, Prob: [0.08516935]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2677591657
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 39, Threshold : 5.96048721491e-08
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 40, Threshold : 2.98024360745e-08
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 88, Prob: [0.07625009]
+thompson.py -  selectOption  - Success: 2, Fail: 40, Prob: [0.11680962]
+thompson.py -  selectOption  - selected option: ASAN
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :11.2495912212
+CSF.py -  <module>  - Selected option: ASAN
+CSF.py -  <module>  - Update before Success : 2, Fail : 40, Threshold : 2.98024360745e-08
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 2, Fail : 41, Threshold : 1.49012180373e-08
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 88, Prob: [0.07730396]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.04849971]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8383713757
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 88, Threshold : 1.49012180373e-08
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 89, Threshold : 7.45060901863e-09
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 89, Prob: [0.11971895]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.04372521]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7396668723
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 89, Threshold : 7.45060901863e-09
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 90, Threshold : 3.72530450932e-09
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 90, Prob: [0.06033343]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.02289348]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8136952498
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 90, Threshold : 3.72530450932e-09
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 91, Threshold : 1.86265225466e-09
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 91, Prob: [0.09071521]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.01472462]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7149907465
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 91, Threshold : 1.86265225466e-09
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 92, Threshold : 9.31326127329e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 92, Prob: [0.088836]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.01934962]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7149907465
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 92, Threshold : 9.31326127329e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 93, Threshold : 4.65663063665e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 93, Prob: [0.07667884]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.05739994]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7149907465
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 93, Threshold : 4.65663063665e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 94, Threshold : 2.32831531832e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 94, Prob: [0.05042777]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.01136736]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8877236274
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 94, Threshold : 2.32831531832e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 95, Threshold : 1.16415765916e-10
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 95, Prob: [0.08127267]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.07614867]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.7149907465
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 95, Threshold : 1.16415765916e-10
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 96, Threshold : 5.82078829581e-11
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 96, Prob: [0.04972604]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.03976775]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.8136952498
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 96, Threshold : 5.82078829581e-11
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 97, Threshold : 2.9103941479e-11
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+thompson.py -  selectOption  - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption  - Success: 7, Fail: 97, Prob: [0.07524193]
+thompson.py -  selectOption  - Success: 2, Fail: 41, Prob: [0.00967709]
+thompson.py -  selectOption  - selected option: nothing
+run_afl_test.py -  fuzz  - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo  - To obtain the fuzzing result information
+run_afl_test.py -  fuzz  - calculate edgeFound_new percent :21.9617520049
+CSF.py -  <module>  - Selected option: nothing
+CSF.py -  <module>  - Update before Success : 7, Fail : 97, Threshold : 2.9103941479e-11
+thompson.py -  updateOptionPosterior  - Update option function - Fail
+CSF.py -  <module>  - Update after  Success : 7, Fail : 98, Threshold : 1.45519707395e-11
+inputAlgorithm.py -  updateResult  - copy new crash file to total crash folder
+inputAlgorithm.py -  updateResult  - copy new input file to total input folder
+inputAlgorithm.py -  updateResult  - remove out folder
+CSF.py -  <module>  - Result | option : nothing success : 7 fail : 98
+CSF.py -  <module>  - Result | option : ASAN success : 2 fail : 41
