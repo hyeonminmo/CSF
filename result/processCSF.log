@@ -1,0 +1,2082 @@
+CSF.py -  <module> DEBUG - set total time : 43200
+CSF.py -  <module> DEBUG - set threshold_init : 1.0
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 1, Prob: [0.21281477]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 1, Prob: [0.15576944]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :19.5434916718
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 1, Threshold : 1.0
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 2, Fail : 1, Threshold : 2.0
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 18
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 967
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 966
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 2, Fail: 1, Prob: [0.68973708]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 1, Prob: [0.64673587]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :20.6785934608
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 2, Fail : 1, Threshold : 2.0
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 2, Fail : 2, Threshold : 1.0
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 966
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1098
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1097
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 2, Fail: 2, Prob: [0.59157278]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 1, Prob: [0.19761506]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :21.2091301666
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 2, Fail : 2, Threshold : 1.0
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 2, Fail : 3, Threshold : 0.5
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1097
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1193
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1192
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 2, Fail: 3, Prob: [0.54730097]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 1, Prob: [0.02854025]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :21.5422578655
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 2, Fail : 3, Threshold : 0.5
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 2, Fail : 4, Threshold : 0.25
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1192
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1304
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1303
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 2, Fail: 4, Prob: [0.49103416]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 1, Prob: [0.90230673]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :11.3004614658
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 1, Threshold : 0.25
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 2, Threshold : 0.125
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1303
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1347
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1346
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 2, Fail: 4, Prob: [0.27133754]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 2, Prob: [0.38399587]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :11.3331637659
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 2, Threshold : 0.125
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 3, Threshold : 0.0625
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1346
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1366
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1365
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 2, Fail: 4, Prob: [0.52842668]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 3, Prob: [0.24753849]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :21.8383713757
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 2, Fail : 4, Threshold : 0.0625
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 3, Fail : 4, Threshold : 1.0625
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1365
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1422
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1421
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 3, Fail: 4, Prob: [0.15914558]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 3, Prob: [0.12313321]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :22.0727945713
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 3, Fail : 4, Threshold : 1.0625
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 3, Fail : 5, Threshold : 0.53125
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1421
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1469
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1468
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 3, Fail: 5, Prob: [0.37317428]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 3, Prob: [0.48004083]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :11.5330111551
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 3, Threshold : 0.53125
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 4, Threshold : 0.265625
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1468
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1486
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1485
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 3, Fail: 5, Prob: [0.30700713]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 4, Prob: [0.22692557]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :22.1468229488
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 3, Fail : 5, Threshold : 0.265625
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 3, Fail : 6, Threshold : 0.1328125
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1485
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1515
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1514
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 3, Fail: 6, Prob: [0.43667516]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 4, Prob: [0.11662569]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :22.2455274522
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 3, Fail : 6, Threshold : 0.1328125
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 3, Fail : 7, Threshold : 0.06640625
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1514
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1547
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1546
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 3, Fail: 7, Prob: [0.26259885]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 4, Prob: [0.3502587]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :11.6456524109
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 4, Threshold : 0.06640625
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 5, Threshold : 0.033203125
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1546
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1554
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1553
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 3, Fail: 7, Prob: [0.28718989]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 5, Prob: [0.25654174]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :22.3565700185
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 3, Fail : 7, Threshold : 0.033203125
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 4, Fail : 7, Threshold : 1.033203125
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1553
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1574
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1573
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 4, Fail: 7, Prob: [0.63012435]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 5, Prob: [0.1434931]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :22.8994447872
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 4, Fail : 7, Threshold : 1.033203125
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 4, Fail : 8, Threshold : 0.5166015625
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1573
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1609
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1608
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 4, Fail: 8, Prob: [0.51649654]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 5, Prob: [0.15713162]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :22.9981492906
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 4, Fail : 8, Threshold : 0.5166015625
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 4, Fail : 9, Threshold : 0.25830078125
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1608
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1623
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1622
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 4, Fail: 9, Prob: [0.11617058]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 5, Prob: [0.28142769]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :11.9872097671
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 5, Threshold : 0.25830078125
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 6, Threshold : 0.129150390625
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1622
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1638
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1637
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 4, Fail: 9, Prob: [0.46726517]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 6, Prob: [0.17118776]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.0475015423
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 4, Fail : 9, Threshold : 0.129150390625
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 4, Fail : 10, Threshold : 0.0645751953125
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1637
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1676
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1675
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 4, Fail: 10, Prob: [0.12752592]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 6, Prob: [0.26102756]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.023545656
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 6, Threshold : 0.0645751953125
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 7, Threshold : 0.0322875976562
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1675
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1697
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1696
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 4, Fail: 10, Prob: [0.38317994]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 7, Prob: [0.09595928]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.1462060457
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 4, Fail : 10, Threshold : 0.0322875976562
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 5, Fail : 10, Threshold : 1.03228759766
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1696
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1723
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1722
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 5, Fail: 10, Prob: [0.30841969]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 7, Prob: [0.32548489]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.0526143672
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 7, Threshold : 1.03228759766
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 8, Threshold : 0.516143798828
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1722
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1730
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1729
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 5, Fail: 10, Prob: [0.41697867]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.0613011]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.2695866749
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 5, Fail : 10, Threshold : 0.516143798828
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 5, Fail : 11, Threshold : 0.258071899414
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1729
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1749
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1748
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 5, Fail: 11, Prob: [0.19294255]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.17912104]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.3436150524
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 5, Fail : 11, Threshold : 0.258071899414
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 5, Fail : 12, Threshold : 0.129035949707
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1748
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1764
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1763
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 5, Fail: 12, Prob: [0.47648411]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.0512779]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.5163479334
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 5, Fail : 12, Threshold : 0.129035949707
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 6, Fail : 12, Threshold : 1.12903594971
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1763
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1782
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1781
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 6, Fail: 12, Prob: [0.56004353]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.17634562]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.6273904997
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 6, Fail : 12, Threshold : 1.12903594971
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 6, Fail : 13, Threshold : 0.564517974854
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1781
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1800
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1799
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 6, Fail: 13, Prob: [0.34601382]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.06059874]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.6644046885
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 6, Fail : 13, Threshold : 0.564517974854
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 6, Fail : 14, Threshold : 0.282258987427
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1799
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1811
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1810
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 6, Fail: 14, Prob: [0.3073053]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.13208592]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.7507711289
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 6, Fail : 14, Threshold : 0.282258987427
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 6, Fail : 15, Threshold : 0.141129493713
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1810
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1831
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1830
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 6, Fail: 15, Prob: [0.26301481]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.17940984]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.7507711289
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 6, Fail : 15, Threshold : 0.141129493713
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 6, Fail : 16, Threshold : 0.0705647468567
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1830
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1838
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1837
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 6, Fail: 16, Prob: [0.30026009]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.12358216]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.8247995065
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 6, Fail : 16, Threshold : 0.0705647468567
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 7, Fail : 16, Threshold : 1.07056474686
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1837
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1856
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1855
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 16, Prob: [0.25177689]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.03622686]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.8494756323
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 7, Fail : 16, Threshold : 1.07056474686
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 7, Fail : 17, Threshold : 0.535282373428
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1855
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1864
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1863
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 17, Prob: [0.19250754]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.0256354]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.8494756323
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 7, Fail : 17, Threshold : 0.535282373428
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 7, Fail : 18, Threshold : 0.267641186714
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1863
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1874
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1873
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 18, Prob: [0.26132806]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.09422763]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.8864898211
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 7, Fail : 18, Threshold : 0.267641186714
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 7, Fail : 19, Threshold : 0.133820593357
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1873
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1894
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1893
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 19, Prob: [0.2419848]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.07768844]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.9111659469
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 7, Fail : 19, Threshold : 0.133820593357
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 7, Fail : 20, Threshold : 0.0669102966785
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1893
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1913
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1912
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 20, Prob: [0.27984084]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.07942799]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.9111659469
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 7, Fail : 20, Threshold : 0.0669102966785
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 7, Fail : 21, Threshold : 0.0334551483393
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1912
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1917
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1916
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 21, Prob: [0.33894946]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.06392681]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.9358420728
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 7, Fail : 21, Threshold : 0.0334551483393
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 7, Fail : 22, Threshold : 0.0167275741696
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1916
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1932
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1931
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 22, Prob: [0.20209326]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 8, Prob: [0.2722178]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.4014389012
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 8, Threshold : 0.0167275741696
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 9, Threshold : 0.00836378708482
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1931
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1940
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1939
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 7, Fail: 22, Prob: [0.41381308]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 9, Prob: [0.01922822]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.9605181986
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 7, Fail : 22, Threshold : 0.00836378708482
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 8, Fail : 22, Threshold : 1.00836378708
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1939
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1950
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1949
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 8, Fail: 22, Prob: [0.24696323]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 9, Prob: [0.11584517]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.9605181986
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 8, Fail : 22, Threshold : 1.00836378708
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 8, Fail : 23, Threshold : 0.504181893542
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1949
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1961
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1960
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 8, Fail: 23, Prob: [0.13290892]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 9, Prob: [0.02968883]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.9605181986
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 8, Fail : 23, Threshold : 0.504181893542
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 8, Fail : 24, Threshold : 0.252090946771
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1960
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1968
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1967
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 8, Fail: 24, Prob: [0.2320643]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 9, Prob: [0.07278057]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :23.9605181986
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 8, Fail : 24, Threshold : 0.252090946771
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 8, Fail : 25, Threshold : 0.126045473386
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1967
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1980
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1979
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 8, Fail: 25, Prob: [0.25920267]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 9, Prob: [0.01463371]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.0098704503
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 8, Fail : 25, Threshold : 0.126045473386
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 8, Fail : 26, Threshold : 0.0630227366928
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1979
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1989
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1988
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 8, Fail: 26, Prob: [0.21967646]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 9, Prob: [0.2874957]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.4414083791
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 9, Threshold : 0.0630227366928
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 10, Threshold : 0.0315113683464
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1988
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 1998
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 1997
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 8, Fail: 26, Prob: [0.39389869]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.04001518]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.0345465762
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 8, Fail : 26, Threshold : 0.0315113683464
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 8, Fail : 27, Threshold : 0.0157556841732
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 1997
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2005
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2004
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 8, Fail: 27, Prob: [0.32726686]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.161272]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.0838988279
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 8, Fail : 27, Threshold : 0.0157556841732
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 27, Threshold : 1.01575568417
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2004
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2017
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2016
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 27, Prob: [0.33619097]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.31335358]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1085749537
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 27, Threshold : 1.01575568417
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 28, Threshold : 0.507877842087
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2016
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2034
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2033
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 28, Prob: [0.31660624]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.13465153]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1085749537
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 28, Threshold : 0.507877842087
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 29, Threshold : 0.253938921043
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2033
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2039
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2038
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 29, Prob: [0.30953887]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.08472889]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1085749537
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 29, Threshold : 0.253938921043
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 30, Threshold : 0.126969460522
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2038
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2043
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2042
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 30, Prob: [0.25518558]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.05233174]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1455891425
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 30, Threshold : 0.126969460522
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 31, Threshold : 0.0634847302608
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2042
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2050
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2049
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 31, Prob: [0.23851564]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.01926277]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1455891425
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 31, Threshold : 0.0634847302608
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 32, Threshold : 0.0317423651304
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2049
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2054
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2053
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 32, Prob: [0.29145735]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.19334331]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1702652684
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 32, Threshold : 0.0317423651304
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 33, Threshold : 0.0158711825652
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2053
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2059
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2058
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 33, Prob: [0.22410564]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.00232175]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1702652684
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 33, Threshold : 0.0158711825652
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 34, Threshold : 0.0079355912826
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2058
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2062
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2061
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 34, Prob: [0.31160169]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.1900985]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.1702652684
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 34, Threshold : 0.0079355912826
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 9, Fail : 35, Threshold : 0.0039677956413
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2061
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2067
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2066
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 9, Fail: 35, Prob: [0.29780725]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.03739455]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.231955583
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 9, Fail : 35, Threshold : 0.0039677956413
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 35, Threshold : 1.00396779564
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2066
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2076
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2075
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 35, Prob: [0.12401101]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.0955493]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.231955583
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 35, Threshold : 1.00396779564
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 36, Threshold : 0.501983897821
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2075
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2091
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2090
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 36, Prob: [0.27684646]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.10076168]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2442936459
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 36, Threshold : 0.501983897821
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 37, Threshold : 0.25099194891
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2090
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2102
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2101
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 37, Prob: [0.12764253]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.10234591]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2442936459
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 37, Threshold : 0.25099194891
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 38, Threshold : 0.125495974455
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2101
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2108
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2107
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 38, Prob: [0.18838039]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.00110607]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2442936459
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 38, Threshold : 0.125495974455
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 39, Threshold : 0.0627479872276
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2107
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2113
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2112
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 39, Prob: [0.1737482]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 10, Prob: [0.34416607]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.514080157
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 10, Threshold : 0.0627479872276
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 11, Threshold : 0.0313739936138
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2112
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2119
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2118
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 39, Prob: [0.24698216]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.06337045]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2566317088
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 39, Threshold : 0.0313739936138
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 40, Threshold : 0.0156869968069
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2118
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2124
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2123
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 40, Prob: [0.17390535]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.08399732]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2689697717
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 40, Threshold : 0.0156869968069
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 41, Threshold : 0.00784349840345
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2123
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2127
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2126
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 41, Prob: [0.14042439]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.13550992]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2689697717
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 41, Threshold : 0.00784349840345
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 42, Threshold : 0.00392174920172
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2126
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2136
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2135
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 42, Prob: [0.20109337]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.06672551]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2689697717
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 42, Threshold : 0.00392174920172
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 43, Threshold : 0.00196087460086
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2135
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2139
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2138
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 43, Prob: [0.19436859]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.04160463]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2689697717
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 43, Threshold : 0.00196087460086
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 44, Threshold : 0.000980437300431
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2138
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2147
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2146
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 44, Prob: [0.11776833]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.03283708]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2689697717
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 44, Threshold : 0.000980437300431
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 45, Threshold : 0.000490218650215
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2146
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2151
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2150
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 45, Prob: [0.12444184]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.01131612]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2689697717
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 45, Threshold : 0.000490218650215
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 46, Threshold : 0.000245109325108
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2150
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2153
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2152
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 46, Prob: [0.21888298]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.0056215]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2689697717
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 46, Threshold : 0.000245109325108
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 10, Fail : 47, Threshold : 0.000122554662554
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2152
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2155
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2154
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 47, Prob: [0.18354356]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 11, Prob: [0.19375844]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.5213473348
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 11, Threshold : 0.000122554662554
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 12, Threshold : 6.12773312769e-05
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2154
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2157
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2156
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 10, Fail: 47, Prob: [0.16377809]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.04381812]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2813078347
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 10, Fail : 47, Threshold : 6.12773312769e-05
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 47, Threshold : 1.00006127733
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2156
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2163
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2162
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 47, Prob: [0.33763871]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.13889846]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2813078347
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 47, Threshold : 1.00006127733
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 48, Threshold : 0.500030638666
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2162
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2169
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2168
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 48, Prob: [0.18409116]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.10658749]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.2813078347
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 48, Threshold : 0.500030638666
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 49, Threshold : 0.250015319333
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2168
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2171
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2170
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 49, Prob: [0.19006068]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.06963398]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3059839605
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 49, Threshold : 0.250015319333
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 50, Threshold : 0.125007659666
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2170
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2175
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2174
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 50, Prob: [0.21611625]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.12790211]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3059839605
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 50, Threshold : 0.125007659666
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 51, Threshold : 0.0625038298332
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2174
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2180
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2179
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 51, Prob: [0.16816975]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.04983434]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3059839605
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 51, Threshold : 0.0625038298332
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 52, Threshold : 0.0312519149166
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2179
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2183
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2182
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 52, Prob: [0.18216674]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.06651513]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3183220234
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 52, Threshold : 0.0312519149166
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 53, Threshold : 0.0156259574583
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2182
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2188
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2187
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 53, Prob: [0.13812986]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.01192831]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3183220234
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 53, Threshold : 0.0156259574583
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 54, Threshold : 0.00781297872915
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2187
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2193
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2192
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 54, Prob: [0.13164917]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.01738786]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3183220234
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 54, Threshold : 0.00781297872915
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 11, Fail : 55, Threshold : 0.00390648936458
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2192
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2194
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2193
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 11, Fail: 55, Prob: [0.15875801]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.06545908]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3306600864
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 11, Fail : 55, Threshold : 0.00390648936458
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 12, Fail : 55, Threshold : 1.00390648936
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2193
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2198
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2197
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 12, Fail: 55, Prob: [0.08222622]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.07049304]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3306600864
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 12, Fail : 55, Threshold : 1.00390648936
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 12, Fail : 56, Threshold : 0.501953244682
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2197
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2199
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2198
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 12, Fail: 56, Prob: [0.202887]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.14257476]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3306600864
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 12, Fail : 56, Threshold : 0.501953244682
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 12, Fail : 57, Threshold : 0.250976622341
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2198
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2202
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2201
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 12, Fail: 57, Prob: [0.09288484]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.07584426]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3429981493
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 12, Fail : 57, Threshold : 0.250976622341
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 12, Fail : 58, Threshold : 0.125488311171
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2201
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2206
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2205
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 12, Fail: 58, Prob: [0.13718919]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.06077514]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.3676742751
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 12, Fail : 58, Threshold : 0.125488311171
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 12, Fail : 59, Threshold : 0.0627441555853
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2205
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2211
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2210
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 12, Fail: 59, Prob: [0.2396835]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.05774859]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.4663787785
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 12, Fail : 59, Threshold : 0.0627441555853
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 59, Threshold : 1.06274415559
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2210
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2218
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2217
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 59, Prob: [0.25296395]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.01577153]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.4663787785
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 59, Threshold : 1.06274415559
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 60, Threshold : 0.531372077793
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2217
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2221
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2220
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 60, Prob: [0.19920281]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.05803383]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.4663787785
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 60, Threshold : 0.531372077793
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 61, Threshold : 0.265686038896
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2220
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2223
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2222
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 61, Prob: [0.13389681]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.06887363]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.4787168415
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 61, Threshold : 0.265686038896
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 62, Threshold : 0.132843019448
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2222
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2225
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2224
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 62, Prob: [0.23811498]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.04616337]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 62, Threshold : 0.132843019448
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 63, Threshold : 0.0664215097241
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2224
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2233
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2232
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 63, Prob: [0.17367515]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.11496946]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 63, Threshold : 0.0664215097241
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 64, Threshold : 0.033210754862
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2232
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2239
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2238
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 64, Prob: [0.18491816]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.03724505]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 64, Threshold : 0.033210754862
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 65, Threshold : 0.016605377431
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2238
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2249
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2248
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 65, Prob: [0.20014344]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.03967984]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 65, Threshold : 0.016605377431
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 66, Threshold : 0.00830268871551
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2248
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2253
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2252
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 66, Prob: [0.13122231]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.01884091]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 66, Threshold : 0.00830268871551
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 67, Threshold : 0.00415134435776
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2252
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2254
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2253
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 67, Prob: [0.15713835]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 12, Prob: [0.20289486]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.5867519349
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 12, Threshold : 0.00415134435776
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 13, Threshold : 0.00207567217888
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2253
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2256
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2255
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 67, Prob: [0.20077446]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.15853453]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 67, Threshold : 0.00207567217888
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 68, Threshold : 0.00103783608944
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2255
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2258
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2257
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 68, Prob: [0.1190888]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.09861634]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 68, Threshold : 0.00103783608944
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 69, Threshold : 0.000518918044719
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2257
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2264
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2263
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 69, Prob: [0.20475223]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.06307049]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 69, Threshold : 0.000518918044719
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 70, Threshold : 0.00025945902236
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2263
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2265
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2264
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 70, Prob: [0.11291342]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.03105231]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 70, Threshold : 0.00025945902236
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 71, Threshold : 0.00012972951118
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2264
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2265
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2264
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 71, Prob: [0.15129336]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.05587697]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 71, Threshold : 0.00012972951118
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 72, Threshold : 6.48647555899e-05
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2264
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2267
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2266
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 72, Prob: [0.23330784]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.03655157]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 72, Threshold : 6.48647555899e-05
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 73, Threshold : 3.2432377795e-05
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2266
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2269
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2268
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 73, Prob: [0.11261747]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.06741998]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5033929673
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 73, Threshold : 3.2432377795e-05
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 13, Fail : 74, Threshold : 1.62161888975e-05
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2268
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2273
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2272
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 13, Fail: 74, Prob: [0.12895367]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.11357801]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5157310302
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 13, Fail : 74, Threshold : 1.62161888975e-05
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 74, Threshold : 1.00001621619
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2272
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2277
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2276
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 74, Prob: [0.11032677]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.07445363]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5157310302
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 74, Threshold : 1.00001621619
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 75, Threshold : 0.500008108094
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2276
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2282
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2281
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 75, Prob: [0.15446563]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.09879138]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5157310302
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 75, Threshold : 0.500008108094
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 76, Threshold : 0.250004054047
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2281
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2286
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2285
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 76, Prob: [0.17149889]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 13, Prob: [0.20245009]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.6049198794
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 13, Threshold : 0.250004054047
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 14, Threshold : 0.125002027024
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2285
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2293
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2292
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 76, Prob: [0.19577232]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.01726762]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5280690932
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 76, Threshold : 0.125002027024
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 77, Threshold : 0.0625010135118
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2292
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2296
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2295
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 77, Prob: [0.21195792]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.05454068]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5280690932
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 77, Threshold : 0.0625010135118
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 78, Threshold : 0.0312505067559
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2295
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2296
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2295
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 78, Prob: [0.11640465]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.03520683]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5404071561
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 78, Threshold : 0.0312505067559
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 79, Threshold : 0.015625253378
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2295
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2299
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2298
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 79, Prob: [0.19219321]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.00047241]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5404071561
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 79, Threshold : 0.015625253378
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 80, Threshold : 0.00781262668898
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2298
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2301
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2300
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 80, Prob: [0.16864197]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.03449949]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5404071561
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 80, Threshold : 0.00781262668898
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 81, Threshold : 0.00390631334449
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2300
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2327
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2326
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 81, Prob: [0.18069641]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.06048695]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5404071561
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 81, Threshold : 0.00390631334449
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 82, Threshold : 0.00195315667224
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2326
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2351
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2350
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 82, Prob: [0.17054815]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.02801589]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5404071561
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 82, Threshold : 0.00195315667224
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 83, Threshold : 0.000976578336122
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2350
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2361
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2360
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 83, Prob: [0.11782092]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.00143249]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5404071561
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 83, Threshold : 0.000976578336122
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 84, Threshold : 0.000488289168061
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2360
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2363
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2362
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 84, Prob: [0.18222321]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.09129042]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5404071561
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 84, Threshold : 0.000488289168061
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 14, Fail : 85, Threshold : 0.00024414458403
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2362
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2365
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2364
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 14, Fail: 85, Prob: [0.12274499]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.02320193]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.552745219
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 14, Fail : 85, Threshold : 0.00024414458403
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 15, Fail : 85, Threshold : 1.00024414458
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2364
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2369
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2368
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 15, Fail: 85, Prob: [0.27392885]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.03130437]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.5897594078
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 15, Fail : 85, Threshold : 1.00024414458
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 15, Fail : 86, Threshold : 0.500122072292
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2368
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2380
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2379
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 15, Fail: 86, Prob: [0.14085038]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.02982147]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6020974707
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 15, Fail : 86, Threshold : 0.500122072292
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 15, Fail : 87, Threshold : 0.250061036146
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2379
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2394
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2393
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 15, Fail: 87, Prob: [0.14226424]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.08878361]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6144355336
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 15, Fail : 87, Threshold : 0.250061036146
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 15, Fail : 88, Threshold : 0.125030518073
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2393
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2419
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2418
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 15, Fail: 88, Prob: [0.13812459]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.10589289]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6144355336
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 15, Fail : 88, Threshold : 0.125030518073
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 15, Fail : 89, Threshold : 0.0625152590365
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2418
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2423
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2422
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 15, Fail: 89, Prob: [0.20885347]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.08971295]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6144355336
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 15, Fail : 89, Threshold : 0.0625152590365
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 15, Fail : 90, Threshold : 0.0312576295183
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2422
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2425
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2424
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 15, Fail: 90, Prob: [0.08776026]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 14, Prob: [0.37935063]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.6594237128
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 14, Threshold : 0.0312576295183
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 15, Threshold : 0.0156288147591
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2424
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2428
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2427
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 15, Fail: 90, Prob: [0.0983241]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 15, Prob: [0.02840195]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6514497224
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 15, Fail : 90, Threshold : 0.0156288147591
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 16, Fail : 90, Threshold : 1.01562881476
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2427
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2429
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2428
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 90, Prob: [0.12958322]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 15, Prob: [0.03060628]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6514497224
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 16, Fail : 90, Threshold : 1.01562881476
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 16, Fail : 91, Threshold : 0.50781440738
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2428
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2430
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2429
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 91, Prob: [0.13884501]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 15, Prob: [0.0237463]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6514497224
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 16, Fail : 91, Threshold : 0.50781440738
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 16, Fail : 92, Threshold : 0.25390720369
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2429
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2430
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2429
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 92, Prob: [0.10482754]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 15, Prob: [0.20940036]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.6630573017
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 15, Threshold : 0.25390720369
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 16, Threshold : 0.126953601845
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2429
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2432
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2431
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 92, Prob: [0.13073724]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.03857526]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6637877853
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 16, Fail : 92, Threshold : 0.126953601845
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 16, Fail : 93, Threshold : 0.0634768009224
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2431
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2436
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2435
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 93, Prob: [0.12138846]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.01315221]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6761258482
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 16, Fail : 93, Threshold : 0.0634768009224
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 16, Fail : 94, Threshold : 0.0317384004612
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2435
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2437
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2436
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 94, Prob: [0.09845598]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.04177951]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6761258482
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 16, Fail : 94, Threshold : 0.0317384004612
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 16, Fail : 95, Threshold : 0.0158692002306
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2436
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2441
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2440
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 95, Prob: [0.12540162]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.11974529]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6761258482
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 16, Fail : 95, Threshold : 0.0158692002306
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 16, Fail : 96, Threshold : 0.00793460011531
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2440
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2446
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2445
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 16, Fail: 96, Prob: [0.22020883]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.00318386]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.6884639112
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 16, Fail : 96, Threshold : 0.00793460011531
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 96, Threshold : 1.00793460012
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2445
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2451
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2450
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 96, Prob: [0.17891515]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.07355793]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7008019741
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 96, Threshold : 1.00793460012
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 97, Threshold : 0.503967300058
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2450
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2455
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2454
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 97, Prob: [0.13676596]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.02958794]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7008019741
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 97, Threshold : 0.503967300058
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 98, Threshold : 0.251983650029
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2454
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2456
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2455
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 98, Prob: [0.16507953]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.00854081]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7254780999
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 98, Threshold : 0.251983650029
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 99, Threshold : 0.125991825014
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2455
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2466
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2465
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 99, Prob: [0.15277235]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.00973576]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7254780999
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 99, Threshold : 0.125991825014
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 100, Threshold : 0.0629959125072
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2465
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2466
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2465
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 100, Prob: [0.15158967]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.01525797]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7378161629
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 100, Threshold : 0.0629959125072
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 101, Threshold : 0.0314979562536
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2465
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2467
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2466
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 101, Prob: [0.08706028]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.00568141]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7378161629
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 101, Threshold : 0.0314979562536
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 102, Threshold : 0.0157489781268
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2466
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2471
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2470
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 102, Prob: [0.15228873]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.09570173]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7378161629
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 102, Threshold : 0.0157489781268
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 103, Threshold : 0.0078744890634
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2470
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2473
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2472
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 103, Prob: [0.09039985]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 16, Prob: [0.29493518]
+thompson.py -  selectOption DEBUG - selected option: ASAN
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :12.6957596018
+CSF.py -  <module> DEBUG - Selected option: ASAN
+CSF.py -  <module> DEBUG - Update before Success : 1, Fail : 16, Threshold : 0.0078744890634
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 1, Fail : 17, Threshold : 0.0039372445317
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2472
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2476
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2475
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 103, Prob: [0.14511943]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.01422899]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7378161629
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 103, Threshold : 0.0039372445317
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 17, Fail : 104, Threshold : 0.00196862226585
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2475
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2490
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2489
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 17, Fail: 104, Prob: [0.1823086]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.01455109]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7501542258
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 17, Fail : 104, Threshold : 0.00196862226585
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Success
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 104, Threshold : 1.00196862227
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2489
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2495
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2494
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 104, Prob: [0.20161813]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.04196417]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7501542258
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 104, Threshold : 1.00196862227
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 105, Threshold : 0.500984311133
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2494
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2496
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2495
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 105, Prob: [0.12907996]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.02749686]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7501542258
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 105, Threshold : 0.500984311133
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 106, Threshold : 0.250492155566
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2495
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2498
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2497
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 106, Prob: [0.10317843]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.09094489]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7624922887
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 106, Threshold : 0.250492155566
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 107, Threshold : 0.125246077783
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2497
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2500
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2499
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 107, Prob: [0.18976142]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.0296774]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7624922887
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 107, Threshold : 0.125246077783
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 108, Threshold : 0.0626230388916
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2499
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2501
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2500
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 108, Prob: [0.12731767]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.02758123]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7748303516
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 108, Threshold : 0.0626230388916
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 109, Threshold : 0.0313115194458
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2500
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2504
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2503
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 109, Prob: [0.13359796]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.02332337]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7871684146
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 109, Threshold : 0.0313115194458
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 110, Threshold : 0.0156557597229
+CSF.py -  <module> DEBUG - The new edgeFound is only less than the previous edgeFound
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2503
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2511
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2510
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 110, Prob: [0.11809579]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.02546744]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7871684146
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 110, Threshold : 0.0156557597229
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 111, Threshold : 0.00782787986145
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2510
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2516
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2515
+thompson.py -  selectOption DEBUG - First line is nothing. Second line is ASAN.
+thompson.py -  selectOption DEBUG - Success: 18, Fail: 111, Prob: [0.15893142]
+thompson.py -  selectOption DEBUG - Success: 1, Fail: 17, Prob: [0.01537117]
+thompson.py -  selectOption DEBUG - selected option: nothing
+run_afl_test.py -  fuzz DEBUG - run afl fuzzing
+run_afl_test.py -  fuzzerResultInfo DEBUG - To obtain the fuzzing result information
+run_afl_test.py -  fuzz DEBUG - calculate edgeFound_new percent :24.7871684146
+CSF.py -  <module> DEBUG - Selected option: nothing
+CSF.py -  <module> DEBUG - Update before Success : 18, Fail : 111, Threshold : 0.00782787986145
+thompson.py -  updateOptionPosterior DEBUG - Update option function - Fail
+CSF.py -  <module> DEBUG - Update after  Success : 18, Fail : 112, Threshold : 0.00391393993073
+inputAlgorithm.py -  updateResult DEBUG - Befor Number of inputTotal : 2515
+inputAlgorithm.py -  updateResult DEBUG - Nubmer of inputs : 2517
+inputAlgorithm.py -  updateResult DEBUG - After Number of inputTotal : 2516
+CSF.py -  <module> DEBUG - Result | option : nothing success : 18 fail : 112
+CSF.py -  <module> DEBUG - Result | option : ASAN success : 1 fail : 17

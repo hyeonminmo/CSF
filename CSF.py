@@ -21,7 +21,7 @@ options["ASAN"] = ts.Option()
 
 
 # build target
-buildTarget()
+#buildTarget()
 
 # test default
 options["nothing"].path = './fuzzing_target/install_nothing'
@@ -51,7 +51,7 @@ time_cur = 300
 if timeTotal < time_cur:
     time_cur = timeTotal
 
-run_option ='-m none'
+run_option ='-m none -t 1000+'
 pgm_option = '-D -j -c -r -s -w'
 
 
