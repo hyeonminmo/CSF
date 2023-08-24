@@ -13,6 +13,8 @@ class Option():
 def selectOption(options):
     maxProb = 0.0
     logging.debug('First line is nothing. Second line is ASAN.')
+
+    # calcuate option probability
     for value in options.values():
         value.prob = np.random.beta(value.S, value.F, size = 1)
         logging.debug('Success: ' + str(value.S) + ', Fail: '+str(value.F)+ ', Prob: '+str(value.prob))
@@ -23,6 +25,8 @@ def selectOption(options):
 
     return max_prob_option
 
+
+# update the number of successes or failures of an option
 def updateOptionPosterior(option,criteria):
     if criteria == 1:
         option.S = option.S + 1
@@ -31,12 +35,3 @@ def updateOptionPosterior(option,criteria):
         option.F = option.F + 1
         logging.debug('Update option function - Fail')
             
-    
-
-
-#    def test(options):
-#       for option in options:
-#          print(option.prob)
-
-
-
