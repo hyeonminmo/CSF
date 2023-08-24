@@ -17,7 +17,14 @@ def fuzz(pgm, input_corpus_path, output_path, time, run_option, pgm_option):
     edge_total = int(resultInfo["edges_total"])
     crash_new_path = resultInfo["path"]+"crashes"
     input_corpus_new_path = resultInfo["path"]+"queue"
+ 
+    inputFile_list = os.listdir(input_corpus_new_path)
+    inputFile_count = len(inputFile_list)
+    logging.debug('Number of inputs : ' +str(inputFile_count))
 
+    crashFile_list = os.listdir(crash_new_path)
+    crashFile_count = len(crashFile_list)
+    logging.debug('Number of crashes : ' +str(crashFile_count))
 
     if edge_total != 0:
         edgeFound_new = float(edge_new)/edge_total * 100
@@ -27,7 +34,7 @@ def fuzz(pgm, input_corpus_path, output_path, time, run_option, pgm_option):
     logging.debug('calculate edgeFound_new percent :' + str(edgeFound_new))
 
 
-    return edgeFound_new, crash_new_path, input_corpus_new_path
+    return edgeFound_new, crash_new_path
 
 
 def fuzzerResultInfo(output_corpus_path):
