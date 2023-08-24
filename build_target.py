@@ -2,7 +2,7 @@ import os
 import logging
 
 def setTarget():
-    path ="./setBuild.sh"
+    path ="./bloaty_FuzzBench/setBuild.sh"
     os.chdir("./target/")
     os.system(path)
 
