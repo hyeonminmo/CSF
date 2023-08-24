@@ -21,14 +21,13 @@ options["ASAN"] = ts.Option()
 
 
 # build target
-#buildTarget()
+buildTarget()
 
 # test default
 options["nothing"].path = './fuzzing_target/install_nothing'
 options["ASAN"].path = './fuzzing_target/install_asan'
 
 # initialize variable
-
 for v in range(len(sys.argv)):
     if v == 1 :
         timeTotal = int(sys.argv[v])
@@ -40,7 +39,6 @@ for v in range(len(sys.argv)):
 
 # set path
 totalCrash_path = './result_total/crash_total/'
-totalInput_path = './result_total/input_total/'
 
 # initilize variable
 edgeFound_prior = 0.0
@@ -53,17 +51,20 @@ if timeTotal < time_cur:
 
 run_option ='-m none -t 1000+'
 pgm_option = '-D -j -c -r -s -w'
+pgm = '/bin/tiffinfo'
 
-
+exec_count = 1
 
 while timeTotal > 0:
     # select option
-    selectedOption = ts.selectOption(options)
-    
-    pgm = options[selectedOption].path + "/bin/tiffinfo"
+    selectedOption = ts.selectOption(options)  
+    pgm = options[selectedOption].path + pgm
 
     # run afl_fuzz with selected option
-    edgeFound_new, newCrash_path, newInput_path = afl.fuzz(pgm, totalInput_path,'./out', time_cur, run_option, pgm_option)
+    if exec_count == 1:
+        edgeFound_new, newCrash_path = afl.fuzz(pgm, totalInput_path, './out', time_cur, run_option, pgm_option)
+    else:
+        edgeFound_new, newCrash_path  = afl.fuzz(pgm, '-', './out', time_cur, run_option, pgm_option)
 
     logging.debug('Selected option: ' + selectedOption)
     logging.debug('Update before Success : ' + str(options[selectedOption].S) + ', Fail : '+str(options[selectedOption].F) + ', Threshold : ' + str(threshold_new))
@@ -83,7 +84,8 @@ while timeTotal > 0:
         edgeFound_prior = edgeFound_new
         logging.debug('The new edgeFound is only less than the previous edgeFound')
     
-    inputAlgo.updateResult(totalCrash_path, newCrash_path, totalInput_path, newInput_path)
+    inputAlgo.updateResult(totalCrash_path, newCrash_path)
+    exec_count+=1
 
     timeTotal = timeTotal - time_cur
 
