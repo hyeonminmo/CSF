@@ -3,7 +3,7 @@ import logging
 
 def setTarget():
     path ="./bloaty_FuzzBench/setBuild.sh"
-    os.chdir("./target/")
+    os.chdir("./target")
     os.system(path)
 
     logging.debug("download target and set build option")

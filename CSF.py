@@ -21,7 +21,7 @@ options["ASAN"] = ts.Option()
 
 
 # build target
-buildTarget()
+#buildTarget()
 
 # test default
 options["nothing"].path = './fuzzing_target/install_nothing'
@@ -38,7 +38,8 @@ for v in range(len(sys.argv)):
         logging.debug('set threshold_init : ' + str(threshold_init))
 
 # set path
-totalCrash_path = './result_total/crash_total/'
+totalCrash_path = './result/crash_total/'
+seedInput_path = './result/seedInput'
 
 # initilize variable
 edgeFound_prior = 0.0
@@ -50,19 +51,19 @@ if timeTotal < time_cur:
     time_cur = timeTotal
 
 run_option ='-m none -t 1000+'
-pgm_option = '-D -j -c -r -s -w'
-pgm = '/bin/tiffinfo'
+pgm_option = ''
+targetPgm = '/bin/bloaty'
 
 exec_count = 1
 
 while timeTotal > 0:
     # select option
     selectedOption = ts.selectOption(options)  
-    pgm = options[selectedOption].path + pgm
+    pgm = options[selectedOption].path + targetPgm
 
     # run afl_fuzz with selected option
     if exec_count == 1:
-        edgeFound_new, newCrash_path = afl.fuzz(pgm, totalInput_path, './out', time_cur, run_option, pgm_option)
+        edgeFound_new, newCrash_path = afl.fuzz(pgm, seedInput_path, './out', time_cur, run_option, pgm_option)
     else:
         edgeFound_new, newCrash_path  = afl.fuzz(pgm, '-', './out', time_cur, run_option, pgm_option)
 

@@ -1,4 +1,4 @@
-cd ../../
+cd ../..
 mkdir fuzzing_target
 cd fuzzing_target/
 # download target project
